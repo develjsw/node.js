@@ -1,5 +1,7 @@
 ## Node.js - Runtime
 
+---
+
 ### Runtime
 - 런타임은 프로그램이 실행되는 동안 해당 프로그램이 필요로 하는 다양한 리소스를 제공하는 코드 실행 환경을 의미함
   - 예시 : JavaScript는 브라우저에서 실행될 때 브라우저 런타임 환경에서 작동하며, 이 환경은 DOM 접근, 이벤트 처리, 브라우저 API 등 웹 애플리케이션이 실행되는 데 필요한 요소들을 포함함
@@ -27,3 +29,8 @@
 - 단일 스레드와 비동기 처리 : Node.js는 기본적으로 단일 스레드에서 실행되지만, 비동기 I/O와 이벤트 루프 덕분에 높은 동시성 처리가 가능
 - 서버 사이드 JavaScript : Node.js는 JavaScript를 브라우저 외에 서버 측에서도 사용할 수 있게 하여, 풀스택 개발자가 동일한 언어로 서버와 클라이언트 모두를 다룰 수 있게 함
 - 모듈 시스템 (CommonJS) : Node.js는 모듈화를 지원하여 코드의 재사용과 유지보수성 높임
+
+---
+
+** 참고사항 **
+- JavaScript를 실행할 수 있는 엔진은 V8(Google) 뿐만 아니라 SpiderMonkey(Mozilla), JavaScriptCore(Apple), Chakra(Microsoft), Hermes(Meta) 등이 있음
